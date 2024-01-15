@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace Exercises_1_Solution
 {
@@ -10,8 +6,8 @@ namespace Exercises_1_Solution
     {
         public String Decoder(String archive, String[] dictionary)
         {
-            StringBuilder encodedString=new StringBuilder();
-            Dictionary<String,Char> map = new Dictionary<String,Char>();
+            StringBuilder encodedString = new StringBuilder();
+            Dictionary<String, Char> map = new Dictionary<String, Char>();
 
             Char C = 'A';
             foreach (var item in dictionary)

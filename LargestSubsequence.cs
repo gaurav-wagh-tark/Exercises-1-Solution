@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace Exercises_1_Solution
 {
@@ -10,19 +6,19 @@ namespace Exercises_1_Solution
     {
         public String getLargest(String s)
         {
-            StringBuilder sb = new StringBuilder(); 
+            StringBuilder sb = new StringBuilder();
 
-            for (int i = 0;i<s.Length;i++)
+            for (int i = 0; i < s.Length; i++)
             {
-                int j = i+1;
+                int j = i + 1;
                 bool flage = false;
                 Char curr = s[i];
-                while(flage == false && j < s.Length)
+                while (flage == false && j < s.Length)
                 {
                     if (s[j] >= curr)
                     {
                         curr = s[j];
-                        i=j;
+                        i = j;
                     }
                     j++;
                 }

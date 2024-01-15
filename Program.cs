@@ -1,6 +1,4 @@
-﻿using System.Net.Http.Headers;
-
-namespace Exercises_1_Solution
+﻿namespace Exercises_1_Solution
 {
     internal class Program
     {
@@ -71,6 +69,10 @@ namespace Exercises_1_Solution
             //Problem 13---------------------------
             //PrintScheduler printScheduler = new PrintScheduler();
             //Console.WriteLine(printScheduler.getOutput(new string[] { "AB", "CD" } , new string[] { "0 1", "1 1", "0 1", "1 2" }));
+
+            //Problem 14---------------------------
+            //TurningLightOn turningLightOn = new TurningLightOn();
+            //Console.WriteLine(turningLightOn.minFlips(new string[] {"0101","1010","0101","1010"}));
         }
     }
 }

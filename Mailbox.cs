@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercises_1_Solution
+﻿namespace Exercises_1_Solution
 {
     internal class Mailbox
     {
@@ -27,7 +21,7 @@ namespace Exercises_1_Solution
                         newList.Remove(addres[i]);
                     }
                     else { count++; break; }
-                    
+
                 }
             }
             return count;

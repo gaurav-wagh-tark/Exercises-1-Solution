@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace Exercises_1_Solution
 {
     internal class LexmaxReplace
     {
-       public String get(String s,String t)
+        public String get(String s, String t)
         {
 
-            char [] str = t.ToCharArray();
+            char[] str = t.ToCharArray();
             Array.Sort(str);
             Array.Reverse(str);
             int count = 0;
@@ -29,7 +25,7 @@ namespace Exercises_1_Solution
 
                 if (count > str.Length - 1) break;
             }
-            
+
             return sb.ToString();
         }
     }
